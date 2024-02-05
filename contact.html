@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 18</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="intro-text">
+        <div class="intro-lead-in">Muziekschool H&J</div>
+        <div class="intro-heading">Contact</div>
+      </div>
+    </header>
+    <nav>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="overons.html">Over ons</a>
+        <a href="tarieven.html">Tarieven</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="http://localhost:3000">Motivational qoute</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <h1>Adresgegevens</h1>
+          <p>
+            Muziekschool H&J<br />
+            t.a.v Hannah en Jesse<br />
+            Industrieterrein 37<br />
+            5981 NK Panningen<br />
+            0123-456789<br />
+            muziekschoolhj@inlook.com
+          </p>
+          <div style="width: 100%">
+            <iframe
+              width="80%"
+              height="400"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ><a href="https://www.maps.ie/population/"
+                >Calculate population in area</a
+              ></iframe
+            >
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Contact</h1>
+        <p class="bold-tekst">
+          U kunt een bericht achterlaten via onderstaand contactformulier.
+        </p>
+        <form>
+          <label for="fname">Uw voornaam:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Uw voornaam:"
+          /><br /><br />
+          <label for="sname">Uw achternaam:</label><br />
+          <input
+            type="text"
+            id="sname"
+            name="sname"
+            value="Uw achternaam"
+          /><br /><br />
+          <label for="email">Uw e-mailadres</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            value="Uw e-mailadres"
+          /><br /><br />
+          <label for="land">Land</label><br />
+          <select id="land" name="land">
+            <option value="nederland">Nederland</option>
+            <option value="belgië">België</option>
+            <option value="anders">Anders</option>
+          </select>
+          <br /><br />
+          <label for="bericht">Uw bericht:</label><br />
+          <textarea
+            name="bericht"
+            id="bericht"
+            rows="10"
+            cols="30"
+            placeholder="Uw bericht hier:"
+          ></textarea>
+          <br /><br />
+          <input type="submit" value="Verzend" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="bold-tekst">
+        © Copyright 2021 Muziekschool H&J <br />
+        (Dit is een oefenopdracht, alle informatie op deze website is fictief.)
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/jquery-ui.js"></script>
+  </body>
+</html>

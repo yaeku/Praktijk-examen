@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les 18</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+  </head>
+  <body>
+    <header>
+      <div class="intro-text">
+        <div class="intro-lead-in">Muziekschool H&J</div>
+        <div class="intro-heading">Blog</div>
+      </div>
+    </header>
+    <nav>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="overons.html">Over ons</a>
+        <a href="tarieven.html">Tarieven</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a href="http://localhost:3000">Motivational qoute</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <h2>Voeg hier uw eigen blog artikel toe.</h2>
+          <form>
+            <label for="blogtitel">Blog post titel:</label><br />
+            <input
+              type="text"
+              id="blogtitel"
+              name="blogtitel"
+              placeholder="Titel"
+              validate="max_length:20"
+            /><br /><br />
+            <label for="bericht">Uw bericht:</label><br />
+            <textarea
+              name="bericht"
+              id="bericht"
+              rows="10"
+              cols="30"
+              placeholder="Uw blog bericht hier:"
+              validate="max_length:200"
+            ></textarea>
+            <button>Verzenden</button>
+          </form>
+          <a href="#" id="link">Klik hier voor informatie</a>
+          <div id="dialog" title="Basic dialog">
+            <p>
+              Uw bericht zou nu verzonden moeten zijn. (dit werkt nog niet :P)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div id="blog-pagina">
+          <div id="blog-post-1" class="blog-post"></div>
+          <div id="blog-post-2" class="blog-post"></div>
+          <div id="blog-post-3" class="blog-post"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="bold-tekst">
+        © Copyright 2021 Muziekschool H&J <br />
+        (Dit is een oefenopdracht, alle informatie op deze website is fictief.)
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/jquery-ui.js"></script>
+    <script src="script/validin.js"></script>
+    <script src="/nodecode/mijnapplicatie/src/index.js"></script>
+  </body>
+</html>
